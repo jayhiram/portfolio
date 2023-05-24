@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+ .logo span {
+    color: red;
+ }  
+ .logo {
+  color: white;
+ }
+
+ .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  } 
+
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+  } 
+  .welcome-text h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #f2f2f2;
+  }
+
+  .welcome-text h1:first-of-type {
+    font-weight: bold;
+    color: white;
+  }
+  .welcome-text h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: red;
+  }
+  .welcome-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .about {
+    color: azure;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image {
+    order: 1;
+    margin-right: 20px;
+  }
+  .about-text {
+    order: 2;
+  }
+  .about-text p {
+    color: #f2f2f2;
+  }
+  .skills {
+    color: white;
+  }
+  .about-skills {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  th {
+    background-color: #007bff;
+  }
+  tr:nth-child(even) {
+    background-color: darkmagenta;
+  }
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  tr :hover {
+    background-color: #ddd;
+  }
+  
+  .contact {
+    color: white;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: red;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: blueviolet;
+  }
+  .social-icons a i {
+    font-size: 24px;
+    color: azure;
+  }
+  .contact-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form form {
+    width: 100%;
+    max-width: 500px;
+  }
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .contact-form textarea {
+    height: 150px;
+  }
+  .contact-form input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .contact-form input[type="submit"]:hover {
+    background-color: blueviolet;
+  }
+.end {
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
